@@ -10,6 +10,11 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    // Variables to track resources
+    private int wood = 0;
+    private int food = 0;
+    private int water = 0;
+
     @Override
     public void start(Stage primaryStage) {
         // Set the title of the game window
@@ -29,6 +34,22 @@ public class Main extends Application {
         Label woodCountLabel = new Label("Wood: 0");
         Label foodCountLabel = new Label("Food: 0");
         Label waterCountLabel = new Label("Water: 0");
+
+        // Event Listeners for Resource Collection
+        collectWoodButton.setOnAction(e -> {
+            wood++;
+            woodCountLabel.setText("Wood: " + wood);
+        });
+
+        collectFoodButton.setOnAction(e -> {
+            food++;
+            foodCountLabel.setText("Food: " + food);
+        });
+
+        collectWaterButton.setOnAction(e -> {
+            water++;
+            waterCountLabel.setText("Water: " + water);
+        });
 
         // Layout (Vertical Box)
         VBox root = new VBox(10); // 10px spacing between elements

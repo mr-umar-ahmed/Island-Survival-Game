@@ -1,7 +1,11 @@
 .root {
-    -fx-background-color: #87CEEB; /* Sky blue */
+    -fx-background-color: #87CEEB; /* Sky blue background */
 }
 .button {
     -fx-background-color: #4CAF50; /* Green */
     -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+.progress-bar {
+    -fx-accent: #FFA500; /* Orange for hunger */
 }

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22172b7c-29e6-4f93-9943-104d68820f08" name="Changes" comment="added featured code in main.java">
+    <list default="true" id="22172b7c-29e6-4f93-9943-104d68820f08" name="Changes" comment="added high scores feature and restart button!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IslandSurvivalGame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IslandSurvivalGame/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +83,22 @@
       <option name="project" value="LOCAL" />
       <updated>1739636800705</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added high scores feature and restart button!">
+      <option name="closed" value="true" />
+      <created>1739639269798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739639269798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup" />
     <MESSAGE value="Added Resource Variables" />
     <MESSAGE value="added featured code in main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added featured code in main.java" />
+    <MESSAGE value="added high scores feature and restart button!" />
+    <option name="LAST_COMMIT_MESSAGE" value="added high scores feature and restart button!" />
   </component>
 </project>

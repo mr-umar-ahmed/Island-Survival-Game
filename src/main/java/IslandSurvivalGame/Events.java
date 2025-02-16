@@ -1,4 +1,4 @@
-package islandsurvival;
+package IslandSurvivalGame;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package islandsurvival;
+package IslandSurvivalGame;
 
 public class Resources {
     private int wood = 0;

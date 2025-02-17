@@ -3,6 +3,6 @@ module com.example.islandsurvivalgame {
     requires javafx.fxml;
 
 
-    opens IslandSurvivalGame to javafx.fxml;
-    exports IslandSurvivalGame;
+    opens game to javafx.fxml;
+    exports game;
 }
